@@ -1,0 +1,33 @@
+﻿<Window x:Class="EmerAgency.AddGorod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmerAgency"
+        mc:Ignorable="d"
+        Title="Добавить город" Height="550" Width="800">
+    <Grid>
+        <Grid.Background>
+        <ImageBrush ImageSource="/Images/imageback.jpg" Stretch="UniformToFill"/>
+
+    </Grid.Background>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+
+        <TextBlock Text="Название города:" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+        <TextBox x:Name="TitleTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+        <TextBlock Text="Тариф дневной (стоимость минуты):" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+        <TextBox x:Name="RatingTextBox" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+
+            <TextBlock Text="Тариф ночной (стоимость минуты):" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+         <TextBox x:Name="RatingTextBox1" Width="250" Height="25" TextAlignment="Center" Margin="10"/>
+
+            <Button Content="Добавить" Click="AddButton_Click" Width="250" Height="25" HorizontalContentAlignment="Center" Margin="40">
+                <Button.Background>
+                    <SolidColorBrush Color="#E0A9AF"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
