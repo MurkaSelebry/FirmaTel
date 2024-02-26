@@ -1,5 +1,4 @@
-﻿using FirmaTel.adModels;
-using FirmaTel.FirmaBasa;
+﻿using FirmaTel.FirmaBasa;
 using System;
 using System.Collections.Generic;
 using System.Linq;
